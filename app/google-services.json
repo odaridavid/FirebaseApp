@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816099682244",
+    "project_id": "fir-app-ceba5",
+    "storage_bucket": "fir-app-ceba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816099682244:android:1eae3da6027ef3e438a691",
+        "android_client_info": {
+          "package_name": "com.github.odaridavid.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816099682244-a24j2rd214pljfokq6vok1nmgqtb0m4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzga04r5dtu0eemqJyZO6QcEMSk2Nnp6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816099682244-a24j2rd214pljfokq6vok1nmgqtb0m4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

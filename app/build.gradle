@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -38,7 +39,14 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    // Firebase BoM - initially we would declare versions for every firbase android sdk with Bom you just define it once and the hassle of
+    // dealing with incompatibilities is gone :)
+    implementation platform('com.google.firebase:firebase-bom:26.4.0')
+
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    // Firebase Cloud Storage
+
+    // Firebase Cloud Messaging
 }
